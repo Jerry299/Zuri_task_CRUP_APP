@@ -1,6 +1,6 @@
 # Zuri_task_CRUP_APP
 
-#### [checkout the api at]()
+#### [checkout the api](https://ig4-zuri-nodejs-crud-app.herokuapp.com/)
 
 ## Node js API ,technologies ExpressJs,Mongoose, and Nodemon for development purposes.
 
