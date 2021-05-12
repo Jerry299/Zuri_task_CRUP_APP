@@ -10,8 +10,7 @@ app.use(express.json());
 const addUser = require("./routes/User");
 //dotenv for secrets and enviromental variables
 require("dotenv").config();
-const mongoUrl = require("./config");
-console.log("config", mongoUrl);
+
 const url = process.env.mongoDbUrl;
 console.log("process.env", url);
 
@@ -23,7 +22,7 @@ const connectionParams = {
 mongoose
   .connect(url, connectionParams)
   .then(() => {
-    console.log("Connected to database ");
+    console.log("Connected to database");
   })
   .catch((err) => {
     console.error(`Error connecting to the database. \n${err}`);
