@@ -2,6 +2,12 @@ const User = require("../models/UserModel");
 
 //GET REQUESTS
 
+exports.welcome = (req, res) => {
+  res.json({
+    message: "Welcome To Zuri Board X IG4 CRUD app.follow the readme ",
+  });
+};
+
 exports.getAllUSers = async (req, res) => {
   try {
     const response = await User.find();

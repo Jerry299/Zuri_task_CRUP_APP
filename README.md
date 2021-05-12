@@ -8,7 +8,7 @@
 
 # Routes
 
-#### GET- all users `/`.
+#### GET- all users `/user/all`.
 
 #### GET- a specific user by name`/user/:name`.
 
