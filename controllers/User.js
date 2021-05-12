@@ -16,7 +16,7 @@ exports.getAllUSers = async (req, res) => {
       data: response,
     });
   } catch (error) {
-    res.json({ message: "Try again, request failed" });
+    res.json({ message: "Try again, request failed", data: error });
   }
 };
 
